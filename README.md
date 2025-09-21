@@ -21,3 +21,6 @@ Why not cv::arcLength?
 
 arcLength operates on polygonal curves (often simplified or quantized), which can under/over-estimate length on digital contours and small features.
 For high-precision measurement on binary silhouettes or sub-pixel-critical edges, a digital-geometry-aware estimator (like Vossepoel–Smeulders) produces lower bias across orientations and curvatures.
+
+Literature
+A.M. Vossepoel and A.W.M. Smeulders, “Vector code probability and metrication error in the representation of straight lines of finite length”, Computer Graphics and Image Processing 20(4):347-364, 1982.
